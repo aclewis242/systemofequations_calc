@@ -1,0 +1,417 @@
+[33mcommit a885661ffcfc5c968b86aad94f77756a47d8c889[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 78556c6 3a5c29e
+Author: Aiden Lewis <thecuttlefishempire@gmail.com>
+Date:   Thu Oct 17 08:09:12 2019 -0700
+
+    Merge branch 'arctrig'
+
+[33mcommit 3a5c29eedf6628b4579b18a01528434ac35a1206[m
+Author: Aiden Lewis <thecuttlefishempire@gmail.com>
+Date:   Thu Oct 17 08:07:17 2019 -0700
+
+    Added arctrig functions.
+
+[33mcommit 78556c649e3bc0f6f497e79feaab7f05dfa318a0[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Thu Oct 17 08:02:36 2019 -0700
+
+    Added arbitrary base log
+
+[33mcommit 12e0760d648f7c67e032275b61d2e16c367c333d[m
+Author: Aiden Lewis <thecuttlefishempire@gmail.com>
+Date:   Thu Oct 17 07:55:52 2019 -0700
+
+    Added hyperbolic trigonometric functions.
+
+[33mcommit 43daa0361cc649fb44d9275d7be648a17f4bc952[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Thu Oct 17 07:34:02 2019 -0700
+
+    [AIDEN] Added Cot, Sec, and Csc
+    These are Aiden's changes
+
+[33mcommit 5ad0f0256c73bb93e7d4794f5db64f0f8f07701f[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Oct 14 17:06:47 2019 -0700
+
+    Added how-to for adding functions
+
+[33mcommit a082c466f8acaff161035b54db88de4664130f80[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Oct 14 17:06:23 2019 -0700
+
+    Added sin, cos, and tan
+
+[33mcommit b1852c9cdf19c5d6ead9589b7cb73af177c13104[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Oct 14 16:38:31 2019 -0700
+
+    Removed broken main.cpp
+    This one imported cpp files and caused a bunch of errors in my build,
+    so pls just use gitignore and keep main
+    to yourself (use the one in the
+    README.md and adapt it to work)
+
+[33mcommit 1d1c47d3f93a02e0abfd0a782a0cd354ffef632f[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Oct 14 16:33:01 2019 -0700
+
+    Removed left over files
+
+[33mcommit 82f8f953a15b5f5b59558665828fcff7a116716b[m
+Merge: d8ada16 48d0a5e
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Oct 14 16:22:42 2019 -0700
+
+    Merge goofy-backup into master
+    goofy-backup is the latest stable version of the calculator
+
+[33mcommit 48d0a5ec0258ada945b6a46f7d9a6e53040a71aa[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Thu Oct 3 08:06:20 2019 -0700
+
+    Added natural logarithm
+
+[33mcommit 41e9e3e7e5cc5d02b37d40cb862d31639fb7b96f[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Thu Oct 3 08:09:28 2019 -0700
+
+    Removed space change to parsing
+    until it works with spaces already there
+
+[33mcommit 70c927f466a6fbcc8e6930a16891544a3bdb81c4[m
+Author: Ritvik Vallambhatla <ritvik.val@gmail.com>
+Date:   Thu Oct 3 07:56:57 2019 -0700
+
+    Removed need for spaces
+
+[33mcommit 95e54dbf8fe5947613803a4acc96cf9794a7da18[m[33m ([m[1;31morigin/goofy-backup[m[33m)[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Wed Oct 2 20:47:18 2019 -0700
+
+    Fixed more than one digits breaking error
+
+[33mcommit a116e536d1b5f5adb40d069723efd2e9e555cbac[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Wed Oct 2 08:03:45 2019 -0700
+
+    Replace switch statement with if
+    to allow for string comparison when
+    other functions are added
+
+[33mcommit 4e982403a3fd351b597305a30f1adf5193164435[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Wed Oct 2 07:47:26 2019 -0700
+
+    Added support for negative numbers
+
+[33mcommit 77569cb72dc1d899c5629cf7d7afbd062ec921b7[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Sep 30 20:58:30 2019 -0700
+
+    Added sample main.cpp to README.md
+
+[33mcommit 4bd0bdb043fe591c0515da332deb70195d51b8bc[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Sep 30 20:18:26 2019 -0700
+
+    Updated build instructions
+
+[33mcommit 83d981c03d3144010980754859383a979d100348[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Sep 30 20:17:39 2019 -0700
+
+    Fixed handling of parenthesis
+
+[33mcommit a6020ba629889b930b41917c01fbd60a6744cd23[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Sep 30 20:04:06 2019 -0700
+
+    Fixed bug with empty operator
+    stack throwing an error
+
+[33mcommit 499a0224cf256227cc83f20dbca863beadd5191b[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Sep 30 20:03:36 2019 -0700
+
+    Added left associativity function
+
+[33mcommit 424de08190849de2fc916eb62a3e2b764e3cd406[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Sep 30 19:06:11 2019 -0700
+
+    Fixed postfix to tree conversion
+    Needed to return pointers to the Expressions
+
+[33mcommit c00654354b783d36ff0af3f5639f27833ddfb5d3[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Sep 30 18:47:39 2019 -0700
+
+    Initial attemp to convert from postfix to tree
+
+[33mcommit fd7cd228a9cb46bcd0daf6c1d33f3f551ce17d3d[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Sep 30 16:58:09 2019 -0700
+
+    Added default Expression constructor
+
+[33mcommit f83537226667ad15fe175fd78ba9a09c07c572b6[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Sep 30 16:46:48 2019 -0700
+
+    Added Expression constructor & its implementation
+
+[33mcommit 02ef54b7f1d9514f00cdd5fbcfac90df9a187172[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Sep 30 16:38:15 2019 -0700
+
+    Added current build instructions
+
+[33mcommit 939f3ec902d3679969471274447a4b40cb37bf31[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Sep 30 16:32:30 2019 -0700
+
+    Added infix to postfix conversion
+
+[33mcommit aabca69b53729c8abc1e98ad04916110ef28e400[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Sep 30 16:32:19 2019 -0700
+
+    Fixed FunctionModule include
+
+[33mcommit d8ada162a60e1d0e1a683964f476e430dbb15073[m
+Author: Areeb <qareeb19@gmail.com>
+Date:   Mon Sep 30 08:09:43 2019 -0700
+
+    test
+
+[33mcommit 7d8b5d1bbb3c715130bbb03301cfb3d69482017a[m
+Author: Areeb <qareeb19@gmail.com>
+Date:   Mon Sep 30 08:00:35 2019 -0700
+
+    Main should convert from input to a string to a vector of tokens to an
+    expression(a binary tree) and then evaluate is run on every node and a
+    double is returned, should work once binarytree convert and evaluate are
+    completed
+    Added some binary operators
+    Debugged some of BinaryTree, wrong type return
+
+[33mcommit 6851a1f504d82b3ae4a8157ffb624e14adcb0e06[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Mon Sep 30 07:54:54 2019 -0700
+
+    Replaced vector with deque
+
+[33mcommit e50097d804fe4afabcf806a3bcda310285a8627c[m
+Author: Ritvik Vallambhatla <ritvik.val@gmail.com>
+Date:   Sun Sep 29 22:41:22 2019 -0700
+
+    I added the postfix conversion to Binary Expression tree. I believe it takes in a vector input
+
+[33mcommit 016e7d01c7765d39af0108a1caa6fd445dfc4449[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Sat Sep 28 14:38:02 2019 -0700
+
+    Added declaration and empty implementation
+    for infix to postfix conversion
+
+[33mcommit 3639a1e3ac3db3cb4862a4d16271f163e1bf4cd2[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Sat Sep 28 14:37:39 2019 -0700
+
+    Renamed file
+
+[33mcommit d0f2e750bd2fd589784e9e0f015b01365b7b43f8[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Sat Sep 28 14:23:58 2019 -0700
+
+    Moved #include's around
+
+[33mcommit 6e3957fe15b850ef3343d5091b5e631efd91fc51[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Sat Sep 28 14:08:08 2019 -0700
+
+    Removed cross dependency of
+    ExpressionModule.cpp on FunctionModule.hpp and
+    FunctionModule.cpp on ExpressionModule.hpp
+
+[33mcommit 5ca0c3df6f2d357011d0dd04387bf8f053bec6eb[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Sat Sep 28 13:33:48 2019 -0700
+
+    Added stringToTokenType method to
+    map strings to TokenTypes
+
+[33mcommit 300ad9608ccc802f4952ea90f1502434b1fb06a4[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Sat Sep 28 13:33:19 2019 -0700
+
+    Modified constructor to be compatible
+    with TokenType
+
+[33mcommit 41599ec63a06d5b869885562fa43ed93534709be[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Sat Sep 28 13:33:04 2019 -0700
+
+    Added TokenType to represent tokens
+    that will not be present in the parsed Expression tree
+
+[33mcommit 514c8056e3f04e79a0aa260403bd604924c9d5a1[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Sat Sep 28 13:32:19 2019 -0700
+
+    Simplified stringToFunction and
+    added comment description in header file
+
+[33mcommit a3dad6e573bfe88483d7702a94bc5a09c07746df[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Fri Sep 27 21:58:37 2019 -0700
+
+    Removed old parsing files
+
+[33mcommit 796df6047ff3347efa6f49fff63f874fad1bd41f[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Fri Sep 27 21:58:25 2019 -0700
+
+    Added empty ExpressionBuilder file, TODO
+
+[33mcommit 86e724822e2eff6625c1125988d3404f3c4b1a03[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Fri Sep 27 21:58:07 2019 -0700
+
+    Added TokenParser files
+
+[33mcommit f739962f84b9c30aa00ffdad7b56304060cc8d35[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Fri Sep 27 21:57:48 2019 -0700
+
+    Added Token class
+
+[33mcommit d0e91c2255776a7ca8a3eaebfd66e233f53d9c23[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Fri Sep 27 21:14:30 2019 -0700
+
+    Switched Function type from enum to enum class
+
+[33mcommit 16335913ba2017f700352d8913bd20bc9c725ff5[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Fri Sep 27 21:07:26 2019 -0700
+
+    Made members public
+
+[33mcommit 23115fb0ee2098a8feb0d7591a079dd5e52c20be[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Fri Sep 27 21:07:16 2019 -0700
+
+    Expanded FunctionModule to include
+    an evaluator builder (buildEvaluator),
+    a hash table of string operators to Function, etc.
+
+[33mcommit fdc4f61840cba200393d914ff504c47309a53d2a[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Fri Sep 27 21:06:13 2019 -0700
+
+    Added ExpressionModule files that
+    evaluate a given expression recursively
+    using the evaluator built by buildEvaluator(...)
+
+[33mcommit 829de512979b9f836acbb5fd8218da6ac9c5e58e[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Fri Sep 27 17:59:18 2019 -0700
+
+    Initial redisgn changes
+
+[33mcommit a6e433867e02d86f215f6d9f38fa79cbdf96031d[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Fri Sep 27 07:27:36 2019 -0700
+
+    Changed TokenType to just differentiate
+    between Operator and LIteral instead of
+    BinaryOperator
+
+[33mcommit 788d8116c1551dfad4d59871679178dcdfce9b0f[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Thu Sep 26 22:42:13 2019 -0700
+
+    Added basic infix to postfix
+    (without parenthesis, functions,
+    and more complicated rules like left associativity)
+
+[33mcommit d4146e489a95e3f9db0723529afd802cf65b86b6[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Thu Sep 26 22:41:02 2019 -0700
+
+    Added #pragma once to Token file
+    to avoid redeclaration
+
+[33mcommit 8f795823fdbc2bcb6518a924bf98aff5cb82a09f[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Thu Sep 26 21:25:46 2019 -0700
+
+    Added file to parse & tokenize
+    space-separated input
+
+[33mcommit 9b678c5f780335d5ce094ea1270910af9d91df98[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Thu Sep 26 21:25:17 2019 -0700
+
+    Added Token classes
+
+[33mcommit bb7ef4b3fe4c94352fc39b4356c9d7979cc31ffb[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Thu Sep 26 21:25:01 2019 -0700
+
+    Moved order of #include
+
+[33mcommit 9f51b982b284d9aafe33d0cc689c47057f03a08a[m
+Author: Areeb <qareeb19@gmail.com>
+Date:   Thu Sep 26 08:06:08 2019 -0700
+
+    Added Log and Root
+
+[33mcommit 3e3ff7fdc2a0441d8040ca6406f652483bae4295[m
+Author: Jude Markabawi <34716142+judemarkabawi@users.noreply.github.com>
+Date:   Wed Sep 25 21:50:21 2019 -0700
+
+    Added initial Expression header files.
+    
+    Details:
+    1) Added a base Expression class that all Expressions inherit from.
+    An Expression is basically a math construct that can be evaluate()ed.
+    So like a number is an expression, but so is 2 + 2, and so is 2 + 3 * 2.
+    They're all Expressions made of sub expressions.
+    
+    2) Added LiteralExpression.
+    An expression that is just a number. evaluate() just returns the number.
+    
+    3) Added BinaryOperator enum.
+    All the basic binary operators there are.
+    
+    4) Added BinaryOperationExpression.
+    An expression that is a binary operator applied to 2 Expressions.
+    evaluate() checks the operation type and just applies the corresponding
+    operation (ex: Addition = +) on the evaluated left (1) and right (2) operands.
+    Maybe I should change them from operand1 and 2 to operandLeft and Right?
+    
+    TODO: I just wrote the class functions implementations inside of the header files at first
+    because I was lazy. I'll move them into cpp files later.
+    
+    - Jude
+
+[33mcommit 82f98d50cb22381baec24a350a9326e2c97619ed[m
+Author: rvallambhatla <53787591+rvallambhatla@users.noreply.github.com>
+Date:   Tue Sep 24 20:59:35 2019 -0700
+
+    Update Discord Tags
+
+[33mcommit 02569e1c20cc04840ad0ffbdc087322116940bde[m
+Author: rvallambhatla <53787591+rvallambhatla@users.noreply.github.com>
+Date:   Tue Sep 24 07:59:26 2019 -0700
+
+    Create Discord Tags
+
+[33mcommit e44df21bdb469d8590be89cf5b600c1f68c12800[m
+Author: BASIS-Bradley <49255377+BASIS-Bradley@users.noreply.github.com>
+Date:   Tue Sep 24 07:42:00 2019 -0700
+
+    Initial commit
