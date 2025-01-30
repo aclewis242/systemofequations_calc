@@ -334,17 +334,18 @@ void SystemsOfEquations::getSolns(){
 }
 
 void SystemsOfEquations::help(){
-    cout << "This program does not support exponents on its variables; namely, no tying \"x^2,\" though \"2^2\" is fine." << endl;
-    cout << "It does, however, support functions (sin, cos, etc)., but not derivatives." << endl;
-    cout << "Variables may only be one character in length." << endl;
+    cout << "This program does not support non-linear expressions; namely, no functions of variables (e.g. \"x^2\"), though functions of constants (e.g. \"2^2\") are fine." << endl;
+    cout << "Variables may only be one letter in length." << endl;
     cout << "When entering equations, please ensure that there is only one instance of each variable, where all variable terms are on the left and all constants are on the right." << endl;
     cout << "Please ensure that all terms have spaces between them (i.e., 2x + y = 3 instead of 2x+y=3)." << endl;
-    cout << "For a full list of supported operations, please enter 's.'" << endl;
+	cout << "Coefficients must be directly adjacent to their corresponding variables. For instance, 'sin(30)x' is correct, while 'sin(30)*x' is not." << endl;
+    cout << "Most common mathematical functions (sin, cos, etc.) are supported. For a full list, please enter 's'." << endl;
     string s = "";
     cin >> s;
     if(s=="s"){
         cout << "Supported functions: \n+\n-\n*\n/\n^\nlog\nln\nsin\ncos\ntan\narcsin\narccos\narctan" << endl;
         cout << "csc\nsec\ncot\narccsc\narcsec\narccot\nsinh\ncosh\ntanh\ncsch\nsech\ncoth\n" << endl;
+		cout << "Note that all trigonometric functions assume/return an input in degrees.\n" << endl;
     }
 }
 
